@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logo_empresa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="7dp"
+        android:elevation="15dp"
+        app:cardUseCompatPadding="true"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_ruta1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Riobamba-Quito"
+            android:drawableLeft="@drawable/ic_bus_side_white_36dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:elevation="5dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/logo_empresa"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/button_background"
+            />
+    <Button
+        android:id="@+id/btn_ruta2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Riobamba-Guayaquil"
+        android:drawableLeft="@drawable/ic_bus_side_white_36dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:elevation="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_ruta1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_background"
+        />
+
+    <Button
+    android:id="@+id/btn_ruta3"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:text="Quito-Riobamba"
+    android:drawableLeft="@drawable/ic_bus_side_white_36dp"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:elevation="5dp"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/btn_ruta2"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:background="@drawable/button_background"
+    />
+
+    <Button
+        android:id="@+id/btn_ruta4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Guayaquil-Riobamba"
+        android:drawableLeft="@drawable/ic_bus_side_white_36dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:elevation="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_ruta3"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="50dp"
+        />
+    <Button
+        android:id="@+id/btn_boletos"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Mis Boletos"
+        android:drawableLeft="@drawable/ic_ticket"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:elevation="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_ruta4"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="100dp"
+        />
+
+
+</RelativeLayout>
+</ScrollView>

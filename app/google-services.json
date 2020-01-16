@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "408888517013",
+    "firebase_url": "https://boletosonline-2d21b.firebaseio.com",
+    "project_id": "boletosonline-2d21b",
+    "storage_bucket": "boletosonline-2d21b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408888517013:android:b80b32ff81dc8fbbc5969c",
+        "android_client_info": {
+          "package_name": "com.boletosonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408888517013-rss45ua7tkccomihu7qo8l7peg6sp96f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boletosonline",
+            "certificate_hash": "852914dbddfc1b7ae50564750e496ad70d92dea1"
+          }
+        },
+        {
+          "client_id": "408888517013-2sqtqsnr61j3luo4ube1tj4tau57ldf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT5KPUdOrRohXUexA2B3-IkrxWMw4GQNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408888517013-2sqtqsnr61j3luo4ube1tj4tau57ldf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
